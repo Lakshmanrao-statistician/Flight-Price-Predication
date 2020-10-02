@@ -1,0 +1,100 @@
+
+Project Name:Predict the Price based on the features of Flight data
+         -----Implemetation of End to End Kaggle Machine Learning Project with Deployment----- 
+
+
+1. created a new environment
+
+    Searching google "Create anaconda environment"
+    
+     conda create -n myenv python=3.6
+
+I mentioned my environment as : conda create -n flightprediction python=3.8
+
+Now activate my environment such as
+
+<base> C:\Users\admin>activate flightprediction
+
+Then
+
+<flightprediction> C:\Users\admin>
+
+
+2. working directory (launched Jupyter notebook)
+
+
+Working location path or working directory
+
+now will give working path i.e., <flightprediction> C:\Users\admin> d:(c: to d:)
+
+                                    <flightprediction>D:> cd D:\Projects\ML
+
+                                              
+Now it's changed as
+
+            <flightprediction> D:\Projects\ML>
+
+
+After that check dir
+
+<flightprediction> D:\Projects\ML> dir
+
+Now want to start Jupyter notebook in same location
+
+<flightprediction> D:\Projects\ML> Jupyter notebook
+
+
+
+4. steps to create requirement .txt in Python
+
+Search in google: how to create requirement.txt in python
+
+Have no.of steps that already did, now this step is require to create 
+
+pip freeze > requirements.txt
+
+Then after installed what are neccessary packages
+
+i.e., pip install flask
+      pip install jsonify
+      pip install sklearn
+
+now <flightprediction> D:\Projects\ML> python app.py
+
+After executing will get http://127.0.0.1:5000/
+
+will paste http://127.0.0.1:5000/ in the web
+
+
+will display the all environments created
+
+conda info --envs
+
+3. Want to create front end
+ That's for we need app.py
+ So, we oped in Spyder in same location
+
+    Installed flask & jsonify as : pip install flask
+                                   pip install jsonify
+
+then after all require instalation we can now write
+
+python app.pf
+
+For deployment used Heroku platform
+
+
+
+       Project setup
+
+   1. Create a virtual environment $ python3 -m venv /path/to/new/virtual/env.
+
+   2. Install packages using $pip install <package> command.
+
+   3. Save all the packages in the file with ....pip freeze > requirements. txt. ...
+      if file is empty use pip3 freeze > requirements.txt
+
+      still Problem persists did ----pip install pipreqs-----
+
+   4. Pin all the package versions. ...
+   5. Add requirements.
